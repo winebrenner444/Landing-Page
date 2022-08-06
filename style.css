@@ -109,21 +109,32 @@ a {
 .call {
  background-color: #3882F6;
  color:#E5E7EB;
- margin: 3em 12em;
+ margin: 3em 10em;
  padding: 2em 2em;
+ display: flex;
+ align-items: center;
 }
 
 .action-button {
     background: #3882F6;
     color: #F9FAF8;
     border-radius: 4px;
-    padding: 4px 30px;
+    padding: 4px 20px;
     border: 1px solid #E5E7EB;
-    margin-left: auto;
-    
 }
 
 .sign-up {
-    display: flex;
-    flex-flow: row wrap;
+    text-align: left;
+    flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    padding: 1em;
+    text-align: center;
+}
+
+.ab-container {
+    margin-left: auto;
 }
